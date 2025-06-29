@@ -1,0 +1,48 @@
+body {
+ background-image: url(databackground.png);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1 {
+ text-align: center;
+ color:73000a;
+}
+
+h2 {
+ text-align: center;
+ color: 73000a;
+}
+
+h3 {
+ color: whitesmoke;
+}
+#wrapper {
+
+    width: 70%;     /* specify a width! */
+    margin: 10 auto; /* center */
+    background-color: #d2f7fa;
+    border:20pt solid #d2f7fa;
+
+  }
+#link_bar a { padding:15px; font-weight:bold; }
+    #link_bar a:link { color:#ffffff; background-color:#73000a; }
+    #link_bar a:visited { color:gray; background-color: #73000a; }
+    #link_bar a:hover { color:#ffffff; background-color: #2e2e2e; }
+    #link_bar a:active { color:#ffffff; background-color:#b51b0d; }
